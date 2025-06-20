@@ -527,16 +527,7 @@ letter color: #f0f0f0
       const outputField = document.querySelector("#output-field");
       let findings = document.querySelector("#frs-findings-field").value;
       const formattedFindings = formatText(findings);
-      const outputString = `Hello, {{{Recipient.FirstName}}},\n\nThank you for your time on the remote session today. Below is a summary of that session as well as the next steps for this case. If you have any questions or you discover any new information, please let us know. Thank you again for your time and for choosing Check Point as your security partner.\n\nFindings\n════════\n${formattedFindings}\n\nNext Steps\n══════════\n\n If you have any questions or concerns, feel free to reach out, as I am available anytime. Thank you, 
-
-Adam Schlamowitz | Technical Support Engineer (T2)
-Check Point Software Technologies
-Working Hours: M-F 9:00AM - 5:00PM Central US Time
-======================
-For Escalation purposes only, please contact:
-Brent Burleson | Team Manager - US Escalations and Product Team - High End
-Global Escalation Path: http://www.checkpoint.com/services/contact/escalation.html
-Global Support Phone Numbers: https://www.checkpoint.com/support-services/contact-support' 
+      const outputString = "Test"
 ${document.querySelector("#frs-next-steps-field").value}`;
       outputField.value = outputString;
     }
